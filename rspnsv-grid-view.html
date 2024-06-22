@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rspnsv-grid-view</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: rgb(248, 248, 4);
+            color: red;
+            padding: 1% 5%;
+            text-align: center;
+            font-size: 1.5rem;
+
+
+        }
+
+        .nav {
+            background-color: rgb(246, 120, 17);
+            padding: 1% 5%;
+        }
+
+        .nav a {
+            display: flex;
+            font-size: 1.2rem;
+            text-decoration: none;
+            padding: 10px;
+            transition: 1s;
+            margin-left: 5px;
+            ;
+        }
+
+        .main {
+            padding: 1% 5%;
+            background-color: rgb(134, 235, 4)
+        }
+
+        .aside {
+            padding: 1% 5%;
+            background-color: rgb(219, 0, 22);
+            text-align: center;
+        }
+
+        .footer {
+            background-color: rgb(100, 116, 24);
+            color: rgb(247, 244, 244);
+            padding: 20px;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 10px;
+        }
+
+        .row::after {
+            content: '';
+            clear: both;
+            display: table;
+        }
+
+        .t:hover {
+            transform: scale(1.2) rotate(360deg);
+        }
+
+        .nav a:hover {
+            transform: scale(1.2);
+        }
+
+        .t {
+            text-shadow: 2px 2px 2px rgba(206, 89, 55, 0), 1px 13px 5px #3c3636, 1px 3px 0 #070707;
+        }
+
+        span {
+            color: red;
+            font-size: 1.5rem;
+        }
+
+        @media screen and (max-width:768px) {
+            [class*="col-"] {
+                width: 100%;
+            }
+
+            .nav a {
+
+                text-align: center;
+                margin-left: 10px;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="t">🍉 T O R M U Z🍉 </h1>
+    </div>
+    <div class="row">
+        <div class="nav col-2">
+            <a href="#">UID LINK</a>
+            <a href="#">GAMING STATISTICS</a>
+            <a href="#">GUN RANK</a>
+            <a href="#">STREAMER MODE</a>
+        </div>
+        <div class="main col-7"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maxime reiciendis
+            ipsam
+            blanditiis accusantium deserunt vitae in expedita, autem aperiam doloremque quos voluptatem laborum aut
+            commodi alias distinctio. Error qui eaque nisi iure, pariatur rerum culpa minus. Nemo accusantium dolor,
+            molestiae nostrum architecto, quia, expedita ab tempore voluptas reiciendis aperiam perferendis id
+            repellendus ipsum placeat suscipit veniam! Reiciendis consectetur corporis quasi quas cum dicta blanditiis
+            eius aut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maxime reiciendis
+            ipsam
+            blanditiis accusantium deserunt vitae in expedita, autem aperiam doloremque quos voluptatem laborum aut
+            commodi alias distinctio. Error qui eaque nisi iure, pariatur rerum culpa minus. Nemo accusantium dolor,
+            molestiae nostrum architecto, quia, expedita ab tempore voluptas reiciendis aperiam perferendis id
+            repellendus ipsum placeat suscipit veniam! Reiciendis consectetur corporis quasi quas cum dicta blanditiis
+            eius aut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maxime reiciendis
+            ipsam
+            blanditiis accusantium deserunt vitae in expedita, autem aperiam doloremque quos voluptatem laborum aut
+            commodi alias distinctio. Error qui eaque nisi iure, pariatur rerum culpa minus. Nemo accusantium dolor,
+            molestiae nostrum architecto, quia, expedita ab tempore voluptas reiciendis aperiam perferendis id
+            repellendus ipsum placeat suscipit veniam! Reiciendis consectetur corporis quasi quas cum dicta blanditiis
+            eius aut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maxime reiciendis
+            ipsam
+            blanditiis accusantium deserunt vitae in expedita, autem aperiam doloremque quos voluptatem laborum aut
+            commodi alias distinctio. Error qui eaque nisi iure, pariatur rerum culpa minus. Nemo accusantium dolor,
+            molestiae nostrum architecto, quia, expedita ab tempore voluptas reiciendis aperiam perferendis id
+            repellendus ipsum placeat suscipit veniam! Reiciendis consectetur corporis quasi quas cum dicta blanditiis
+            eius aut?blanditiis accusantium deserunt vitae in expedita, autem aperiam doloremque quos voluptatem laborum
+            aut
+            commodi alias distinctio. Error qui eaque nisi iure, pariatur rerum culpa minus. Nemo accusantium dolor,
+            molestiae nostrum architecto, quia, expedita ab tempore voluptas reiciendis aperiam perferendis id
+            repellendus ipsum placeat suscipit veniam! Reiciendis consectetur corporis quasi quas cum dicta blanditiis
+            eius aut?repellendus ipsum placeat suscipit veniam! Reiciendis consectetur corporis quasi quas cum dicta
+            blanditiis
+
+
+        </div>
+        <div class="aside col-3">
+            <h2>Favorite clan?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+            <h2>Favorite GUN?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+            <h2>Favorite TEAM?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+            <h2>Best Gameplay?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+        </div>
+    </div>
+    <div class="footer">
+        &copy;Play with 🍉<span>T O R M U Z</span>🍉 ,TIME 10:00pm to 1:00am </div>
+</body>
+
+</html>
